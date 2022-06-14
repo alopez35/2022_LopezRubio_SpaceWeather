@@ -1,0 +1,27 @@
+This package includes the scripts and files for reproducing the plots in the 
+paper A. Lopez Rubio and S. Datta-Barua (2022), Vector spherical harmonics for 
+data-assimilative neutral wind estimation, Space Weather.
+
+Script and Function credits:
+plotdaynightterminator.m: from Centre for Advanced Internet Architectures Swinburne
+University of Technology, Melbourne, Australia (CRICOS number 00111D) Copyright (c) 2009-2012
+
+All other script and function authors:
+A. Lopez Rubio, D. S. Miladinovich, S. Datta-Barua, and U. Ramirez
+ 
+Data credits:
+dstoctober2011: World Data Center for Geomagnetism, Kyoto, Japan
+https://wdc.kugi.kyoto-u.ac.jp/dst_final/201110/index.html
+
+mapdata.mat: Todd Walter, Stanford University
+
+Pisgah_20111025.txt, Cariri_20111025.txt, Nasca_20111025.txt: That includes FPI data
+from the Madrigal database system https://cedar.openmadrigal.org/index.html/ 
+
+All other data files: A. Lopez Rubio and S. Datta-Barua.
+ 
+Point of contact:
+Aurora López Rubio, Illinois Institute of Technology
+alopez35@hawk.iit.edy
+http://apollo.tbc.iit.edu/~spaceweather/live/
+Created 14 June 2022
