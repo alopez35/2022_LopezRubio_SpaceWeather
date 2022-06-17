@@ -22,6 +22,6 @@ Each plot*.m will automatically clear all variables and close all figures. The s
  
 Point of contact:
 Aurora López Rubio, Illinois Institute of Technology
-alopez35@hawk.iit.edy
+alopez35@hawk.iit.edu
 http://apollo.tbc.iit.edu/~spaceweather/live/
 Created 14 June 2022
