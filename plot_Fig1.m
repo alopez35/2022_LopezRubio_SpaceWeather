@@ -77,7 +77,7 @@ for i=1:5
         % Figure labels.
         xlabel('Day/UT Hour of October 2011' ,'units','points','fontsize', 14, 'fontname', 'Times')
         ylabel('Dst index [nT]','units','points','fontsize', 14, 'fontname', 'Times')
-        title(['(a): DST index 24-25 October 2011'],'units','points','fontsize', 14, 'fontname', 'Times');
+        title('(a): DST index 24-25 October 2011','units','points','fontsize', 14, 'fontname', 'Times');
      end
     
      % Figu1b settings
@@ -105,12 +105,11 @@ for i=1:5
          if i==3 ||  i==5
             colormap('parula');
             H = colorbar;
-            set(get(H,'Ylabel'),'String',['Vertical TEC' ' [TECU]'],'units','points','fontsize', 14, 'fontname', 'Times');
+            ylabel(H,['Vertical TEC' ' [TECU]'],'fontsize', 14, 'fontname', 'Times');
             set(gca,'YTick',[])
          end
      end
      set(gca,'Fontsize',14,'Fontname', 'Times');
-    
 end
 
     
