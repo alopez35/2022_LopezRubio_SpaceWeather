@@ -22,7 +22,7 @@ function h = plot_tec_map(teclon, teclat, TEC, coords, noon_lat, ...
 
 
     % Set colormap of TEC maps
-    colormap('default');
+    colormap('parula');
     H =  colormap;
 
     % Create lon and lat grid
@@ -44,5 +44,12 @@ function h = plot_tec_map(teclon, teclat, TEC, coords, noon_lat, ...
 
     % Plot world map
     plot(ll_world(:,2),ll_world(:,1),'k','LineWidth', 2.0); 
-
+    
+    % Plot FPI sites
+        % FPI Cariri
+    plot(-82,35,'ms', 'MarkerFaceColor','m','markersize',8); 
+        % FPI Nazca
+    plot(-38.56,-6.9,'mp', 'MarkerFaceColor','m','markersize',8);
+        % FPI Pisgah
+    plot(-75,-15,'m^', 'MarkerFaceColor','m','markersize',8)
 end

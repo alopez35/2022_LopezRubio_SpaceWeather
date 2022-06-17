@@ -8,7 +8,7 @@
 % See AUTHORS, LICENSE, and README files for additional information.
 % Aurora Lopez Rubio
 % Illinois Institute of Technology
-% alopez35@iit.edu
+% alopez35@hawk.iit.edu
 % 8 June 2022
  
 function fig1a = plot_Fig1a()
