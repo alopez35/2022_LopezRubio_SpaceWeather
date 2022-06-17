@@ -83,7 +83,7 @@ for i=1:5
      % Figu1b settings
      if i>=2
          % Colorbar color
-        set(gcf, 'Color', [1 1 1])
+         set(gcf, 'Color', [1 1 1])
          % Title
          title([num2str(t{i-1}) ' UT'],'units','points','fontsize', 14, 'fontname', 'Times');
          if i == 2
@@ -95,6 +95,7 @@ for i=1:5
             set(gca,'XTick',[])
          end
          if i==2||  i==4
+            colormap('parula');
             H = colorbar;
             ylabel(['Geographic Latitude' char(10) '[deg N]'],'units','points','fontsize', 14, 'fontname', 'Times');
          end
@@ -102,6 +103,7 @@ for i=1:5
             xlabel(['Geographic Longitude [deg E]'],'units','points','fontsize', 14, 'fontname', 'Times'); 
          end
          if i==3 ||  i==5
+            colormap('parula');
             H = colorbar;
             set(get(H,'Ylabel'),'String',['Vertical TEC' ' [TECU]'],'units','points','fontsize', 14, 'fontname', 'Times');
             set(gca,'YTick',[])
