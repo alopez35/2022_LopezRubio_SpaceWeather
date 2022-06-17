@@ -22,6 +22,6 @@ All other data files: A. Lopez Rubio and S. Datta-Barua.
  
 Point of contact:
 Aurora López Rubio, Illinois Institute of Technology
-alopez35@hawk.iit.edy
+alopez35@hawk.iit.edu
 http://apollo.tbc.iit.edu/~spaceweather/live/
 Created 14 June 2022
